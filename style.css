@@ -28,7 +28,7 @@ section>p{
     background-color: rgba(245, 245, 220, 0.073);
     width: 40vw;
     padding: 5px;
-    font-family: var(--font3); 
+    font-family: var(--font2); 
 
 }
 
@@ -64,7 +64,7 @@ section.img04{
 footer{
     background-color: black;
     color: white;
-    font-family: var(--font3);
+    font-family: var(--font2);
     text-align: center;
     padding-top: -8px;
     padding-bottom: 5px;
@@ -72,11 +72,11 @@ footer{
 }
 
 h1{
-    font-family: var(--font3);
+    font-family: var(--font2);
     text-align: center;
 }
 h3{
-    font-family: var(--font3);
+    font-family: var(--font2);
     text-align: center;
 }
 
