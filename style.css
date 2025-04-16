@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font1:Verdana, Geneva, Tahoma, sans-serif;
+    --font2:"Passion One", sans-serif;
+    --font3:"Sriracha", cursive;
+}
+
+section{
+    background-color: rgb(51, 51, 51);
+    color: white;
+  
+    padding: 10px;
+    line-height: 2em;
+    font-size: 3vw;
+}
+
+section>p{
+    display: inline block;
+    background-color: rgba(245, 245, 220, 0.073);
+    width: 40vw;
+    padding: 5px;
+    font-family: var(--font3); 
+
+}
+
+section.img01{
+    background-image: url('imagens/animal-7220153_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+section.img02{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+section.img03{
+    background-image: url('imagens/bee-8355726_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+section.img04{
+    background-image: url('imagens/birds-8554199_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: var(--font3);
+    text-align: center;
+    padding-top: -8px;
+    padding-bottom: 5px;
+    font-size: 2vw;
+}
+
+h1{
+    font-family: var(--font3);
+    text-align: center;
+}
+h3{
+    font-family: var(--font3);
+    text-align: center;
+}
+
+
+
+
+
+
+    
+
+
+
